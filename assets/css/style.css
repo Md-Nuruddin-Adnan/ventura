@@ -1,0 +1,86 @@
+:root {
+  --orange: #ef5425;
+  --dark: #231f20;
+  --white: #ffffff;
+}
+
+@font-face {
+  font-family: 'Humanist521LightBT';
+  src: url('../fonts/Humanist521LightBT.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Humanist521LightBT';
+  color: var(--dark);
+}
+/* basic css end */
+/*// end of common css */
+
+/* main css start */
+
+
+/* === how-to-create section start === */
+.how-to-create .title {
+  text-align: center;
+  color: var(--orange);
+}
+
+.how-to-create .number {
+  color: var(--orange);
+  font-family: system-ui;
+  font-size: 3.25rem;
+  font-weight: 200;
+}
+
+.how-to-create .number sub {
+  color: var(--dark);
+  font-size: 1.25rem;
+  top: -4px;
+  left: -4px;
+}
+
+.how-to-create .steps-description {
+  font-size: 1.2rem;
+  white-space: pre-line;
+}
+/* ===//end of how-to-create section === */
+
+
+/* === footer section start === */
+.page-footer {
+  background-color: #4b4b4d;
+}
+/* ===//end of footer section === */
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 900px;
+  }
+}
+
+
+/* var(--orange); */
